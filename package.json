@@ -19,9 +19,7 @@
   },
   "homepage": "https://github.com/marlonBn/ToDo-App-V2#readme",
   "devDependencies": {
-    "esbuild": "0.17.3"
-  },
-  "dependencies": {
+    "esbuild": "0.17.3",
     "live-server": "^1.2.2"
   }
 }
