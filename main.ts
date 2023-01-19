@@ -7,7 +7,7 @@ if (button !== null) {
         if (!infoText) {
             return;
         }
-        var inputBox = document.getElementById("input-artikel") as HTMLInputElement;
+        var inputBox = document.getElementById("input-artikel ") as HTMLInputElement;
 
         var liste = document.getElementById("ul-einkaufsliste");
         var neuerListenpunkt = document.createElement("li")
@@ -18,6 +18,6 @@ if (button !== null) {
             infoText.innerHTML = ""
         }
         neuerListenpunkt.innerHTML = inputBox.value
-        inputBox.value= ""
+        inputBox.value = ""
     });
 }
