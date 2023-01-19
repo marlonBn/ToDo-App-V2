@@ -4,9 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "esbuild main.ts --bundle --outfile=main.js --minify --sourcemap",
-    "buildWatch": "esbuild main.ts --bundle --outfile=main.js --sourcemap --watch",
-    "serve": "live-server"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/marlonBn/ToDo-App-V2/issues"
   },
-  "homepage": "https://github.com/marlonBn/ToDo-App-V2#readme"
+  "homepage": "https://github.com/marlonBn/ToDo-App-V2#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.4"
+  }
 }
