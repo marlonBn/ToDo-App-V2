@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "esbuild main.ts --bundle --outfile=main.js --minify --sourcemap",
-    "buildWatch": "esbuild main.ts --bundle --outfile=main.js --sourcemap --watch",
+    "buildWatch": "esbuild main.ts --bundle --outfile=main.js --minify --sourcemap --watch",
     "serve": "live-server"
   },
   "repository": {
