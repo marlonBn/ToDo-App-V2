@@ -18,6 +18,6 @@ if (button !== null) {
             infoText.innerHTML = ""
         }
         neuerListenpunkt.innerHTML = inputBox.value
-        inputBox.value= ""
+        inputBox.value = ""
     });
 }
