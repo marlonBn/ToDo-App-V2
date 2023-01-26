@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "esbuild main.ts --bundle --outfile=main.js --minify --sourcemap",
-    "buildWatch": "esbuild main.ts --bundle --outfile=main.js --minify --sourcemap --watch",
+    "buildWatch": "esbuild app.ts --bundle --outfile=app.js --minify --sourcemap --watch",
     "serve": "live-server"
   },
   "repository": {
@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/marlonBn/ToDo-App-V2#readme",
   "devDependencies": {
+    "@types/prompt-sync": "^4.2.0",
     "esbuild": "0.17.3",
     "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }
